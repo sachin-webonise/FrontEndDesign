@@ -1,0 +1,19 @@
+img 
+{
+float:left;
+}
+p.text
+{
+border-style:solid;
+border-width:1px;
+}
+.vertical_divider:after {
+    background: red;
+    width: 1px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -15px;
+}
