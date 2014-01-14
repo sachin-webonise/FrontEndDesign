@@ -25,13 +25,11 @@ img{
 	margin-left: 20px
 }
 #text{
-	float:left;
-	width: 1200px;
 	margin-top: 20px;
 	margin-left: 20px;
 }
 #text p{
-	margin-left: 20px;
+	margin-left: 100px;
 }
 #footer{
 	border-bottom: 1px solid black;
