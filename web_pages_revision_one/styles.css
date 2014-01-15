@@ -90,35 +90,34 @@ img{
 	border-bottom: 1px solid black;
 }
 #nav {
-	width: 60%;
-	height: 90%;
-	display: inline;
+	
+	/*display: inline;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;*/
 
 }
 
-#nav ul {
+#nav  {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 10px;	
 		
 }
 
-#nav ul li{
+#nav li{
 		display: inline-block;
 		
 }
-#nav ul li a{
+#nav  li a{
 	padding: 10px;
 	color: blue;
 }
 
-#nav ul li a:hover{
+#nav  li a:hover{
 	background-color:#FF1493 ;
 	box-shadow: 0px 1px 1px #666;
 }
-#nav ul li a:active{
+#nav  li a:active{
  background-color: #ff8f00; 
 }
 #form{
