@@ -27,33 +27,44 @@ h1{
 }
 #elements{
   float:left;
-  border-right:1px solid black;
+  width: 110px;
+  /*border-right:1px solid black;*/
 }
-#tigerImg{
- float:left;
-}
+
 img{
-	margin-left: 20px;
+	float:left;
+	width:100px;
+	margin-left: 10px;
+	margin-top: 20px;
+
+}
+#imageAndText{
+	margin-left: 10px;
+	float: right;
+
 }
 #text{
-	margin-top: 20px;
-	margin-left: 20px;
+	/*margin-top: 10px;*/
+	float: right;
+	width: 800px;
+	border-left: 1px solid;
 }
 #text p{
-	margin-left: 100px;
+	margin-left: 10px;
 }
 #footer{
-	/*border-bottom: 1px solid black;*/
+	border-top: 1px solid black;
 }
 
 	
-#footer p{
+#footerPara{
 	font-size: 80%;
 	color: gray;
 	float:left;
 }
 #footer ul{
 	float:right;
+	width:235px;
 }
 #footer ul li{
 	display: inline;
@@ -66,7 +77,7 @@ img{
 
 .content{
 	float: left;
-	border-bottom: 1px solid black;
+	/*border-bottom: 1px solid black;*/
 }
 #applyBottom{
 	border-bottom: 1px solid black;
