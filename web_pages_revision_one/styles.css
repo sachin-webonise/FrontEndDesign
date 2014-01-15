@@ -48,6 +48,7 @@ img{
 	float: right;
 	width: 800px;
 	border-left: 1px solid;
+	margin-left: 10px;
 }
 #text p{
 	margin-left: 10px;
@@ -103,4 +104,7 @@ img{
 }
 #nav ul li a:active{
  background-color: #ff8f00; 
+}
+#form{
+	margin-left: "30"
 }
