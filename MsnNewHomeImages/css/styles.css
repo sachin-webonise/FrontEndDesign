@@ -5,7 +5,7 @@ form,tr, th, td,footer,header,nav{
 }
 
 #container{
-		width: 940px;
+		width: 1100px;
 		border:1px solid black;
 		margin: auto;
 		text-align: left;
@@ -114,8 +114,8 @@ form,tr, th, td,footer,header,nav{
 }
 #sectors{
 	margin-bottom: 39px;
-	margin-left: 15px;
-	margin-right:15px;
+	margin-left: 70px;
+	margin-right:70px;
 }
 #womensOneDiv{
 	float: left;
@@ -148,8 +148,8 @@ form,tr, th, td,footer,header,nav{
 	box-shadow: 1px 1px 5px #888888;
 	/*border: 1px solid gray;*/
 	background-color: rgb(255,255,255);
-	margin-left: 3px;
-	margin-right: 3px;
+	margin-left: 8px;
+	margin-right: 8px;
 	margin-top: 25px;
 }
 /*images*/
@@ -164,4 +164,61 @@ form,tr, th, td,footer,header,nav{
 .image{
 	margin-left: 5px;
 	margin-right: 5px ;
+}
+#footer ul{
+	padding-top: 18px;
+	
+}
+#footer ul strong li{
+	
+	margin-left:0px !important;
+	padding-left: 10px !important;
+	padding-right: 5px !important;
+	border-left: 1px solid gray;
+	display: inline;
+}
+#footer ul strong li:first-child{
+	margin-left: 0px;
+	border-left: 0px !important;
+}
+#footer ul strong li a{
+	color:gray;
+}
+#footer ul strong li a:first-child{
+	/*margin-left: 0px;*/
+}
+.footerUlOne{
+	float:left;
+	margin-left: 80px;
+}
+.footerUlTwo{
+	float:right;
+	margin-right: 80px;
+}
+#footer hr{
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid black;
+    margin: 1em 0; padding: 0;
+    margin-top: 13px;
+    margin-left:80px;
+    margin-right:80px;
+}
+#footer p{
+	float: left;
+	color: gray;
+	margin-left: 80px;
+}
+.footerParaOne{
+	float: left;
+}
+.footerParaTwo{
+	float: right;
+	margin-right: 80px;
+}
+.footerParaTwo p{
+	padding-right: 15px;
+}
+#footer div img{
+	height: 15px;
+	width:15px;
 }
