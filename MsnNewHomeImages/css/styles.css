@@ -1,0 +1,167 @@
+html, body, div, h1, p,a,img,center,ol, ul, li,
+form,tr, th, td,footer,header,nav{
+        margin: 0;
+        padding: 0;        
+}
+
+#container{
+		width: 940px;
+		border:1px solid black;
+		margin: auto;
+		text-align: left;
+		/*background-color:lightblue;*/
+		background-color: rgb(244,245,246);
+}
+
+#nav ul{
+	float: left;
+	/*height:100px;*/
+	margin-left: 20px;
+	padding-left: 5px;
+	display:inline; 
+}
+#nav ul strong{
+	padding-top: 10px;
+}
+#nav{
+	/*margin-top: 20px;*/
+	display: block-inline;
+}
+#nav li{
+        display: inline-block;
+                
+}
+#logo{
+	
+	/*background-color: red;*/
+	margin-left: 50px;
+	/*border-bottom: 1px solid black;*/
+}
+#header{
+	border-top: 1px solid white;
+	/*margin-right: 39px;*/
+	margin-top: 20px;
+	background-color: rgb(51,85,170);
+	height: 50px;
+
+	/*display:inline; */
+}
+#nav ul strong li {
+	padding: 10px;
+	color: white;
+
+}
+#search{
+	height: 20px;
+	float:right;
+	width:230px;
+	/*padding-bottom: 20px;*/
+	margin-top: 5px;
+	margin-bottom: 50px;
+	margin-right: 150px;
+
+}
+.clearSpace{
+        clear: both;
+}
+#square{
+	/*border:1px solid white;*/
+	float: right;
+	height: 35px;
+	width: 35px;
+	background-color: rgb(80,115,205);
+}
+#searchTextBox{
+	float: left;
+	background-color: rgb(33,65,147);
+	/*padding-right: 5px;*/
+	/*margin-right: 10px;*/
+	height: 30px;
+	width: 170px;
+}
+#searchLogo{
+	float:right;
+	/*width:30px;*/
+	padding: 10px;
+}
+
+
+/*footer*/
+#footer{
+	/*border-top: 1px solid white;*/
+	/*margin-top: 20px;*/
+	background-color: rgb(48,48,48);
+	height: 100px;
+
+	/*display:inline; */
+}
+#manImg{
+	margin-left: 39px;
+	margin-top: 35px;
+	box-shadow: 3px 3px 5px #888888;
+}
+#sectorTitle{
+	/*color: blue;*/
+	float:center;
+	padding-left: ;
+	width:500px;
+	display: block-inline;
+	/*background-color: red;*/
+	margin-left: 220px;
+	text-align: center;
+	margin-top: 88px;
+
+}
+#sectors{
+	margin-bottom: 39px;
+	margin-left: 15px;
+	margin-right:15px;
+}
+#womensOneDiv{
+	float: left;
+	
+}
+#womensTwoDiv{
+	float: left;
+	
+}
+#boyImgDiv{
+	float: left;
+	
+}
+#womensThreeDiv{
+	float: left;
+	
+}
+#kidsImgDiv{
+	float:right;
+	padding-top: 20px;
+	/*width:20px;*/
+	
+}
+.imageTitles{
+	color: darkblue;
+	text-align: center;
+	padding-top: 10px;
+}
+.sectorDiv{
+	box-shadow: 1px 1px 5px #888888;
+	/*border: 1px solid gray;*/
+	background-color: rgb(255,255,255);
+	margin-left: 3px;
+	margin-right: 3px;
+	margin-top: 25px;
+}
+/*images*/
+#kidsImage{
+
+}
+/*Image titles*/
+#kidsTitle{
+	padding-top: 1px;
+	padding-bottom: 10px;
+}
+.image{
+	margin-left: 5px;
+	margin-right: 5px ;
+}
