@@ -86,11 +86,12 @@ div, body, p, a, button, form, li, fieldset {
 }
 #rightBodySignUp{
 	margin-top: 48px;
-	/*margin-left: 28px;*/
+	margin-left: 70px;
 }
 #rightBodySignUp form {
 	width:300px;
 	border-top: 2px solid rgb(242,204,133);
+	
 }
 #rightBodySignUp form fieldset{
 	/*width:300px;*/
@@ -100,6 +101,7 @@ div, body, p, a, button, form, li, fieldset {
 	border: 1px solid rgb(242,204,133);
 	margin-bottom: 16px;
 	height: 40px; /**/
+	box-shadow: inset 1px 1px 1px rgb(242,204,133), 1px 1px 1px rgb(242,204,133);
 }
 #userName{
 	margin-top: 22px;
@@ -142,4 +144,44 @@ ul li{
 }
 a{
 	color: black;
+}
+#sandBox{
+	text-align: center;
+	height:500px;
+	width:200px;
+	/*margin-left: 0px;*/
+	/*margin-top: 450px;*/
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+#sandBoxTitle{
+	/*margin-left: 0px;*/
+	text-align: center;
+	margin-top: 77px;
+	font-family:helvetica;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+	color: rgb(34,34,34);
+}
+#sandBoxText{
+	/*margin-left: 0px;*/
+	text-align: center;
+	color:rgb(85,85,85);
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	font-family:helvetica;
+	
+}
+#middleBody{
+	margin-top: 130px;
+	margin-left:140px;
+}
+.clearDiv{
+	clear: both;
+}
+#wrapperOnSandbox{
+	margin-top: 100px;
+	margin-left: -30px;
 }
