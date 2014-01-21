@@ -1,0 +1,329 @@
+html, body, div, h1, p,a,ol, ul, li,
+form,tr, th, td,footer,header,nav{
+        margin: 0;
+        padding: 0;  
+       
+}
+.container{
+		width: 924px;
+		/*border:1px solid black;*/
+		margin: auto;
+		/*text-align: left;*/
+		/*background-color:lightblue;*/
+		background-color: rgb(244,245,246);
+}
+
+#logo{
+	margin-top: 11px;
+	margin-left: 21px;
+	float: left;
+}
+#header{
+	height: 100px;
+}
+#headerPara{
+	text-align: center;
+	/*margin-left: 62px;*/
+	/*margin-top: 42px;*/
+}
+.clearSpace{
+        clear: both;
+}
+#p1{
+	float:left;
+}
+#navLeft{
+	width: 600px;
+
+}
+#navLeft  ul strong li{
+	display: inline;
+	list-style:none;
+	font:150px;
+}
+#navLeft  ul strong li a{
+	color: white;
+	font:150px;
+	/*padding-bottom: 15px;*/
+	vertical-align: center;
+	margin-top: -30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#navLeft  ul strong li img{
+	margin-top: 8px;
+
+}
+#headerstrip{
+        margin: 0 auto;      
+	height:50px;
+        width:1100px;
+	background-color: rgb(51,85,170);
+}
+#navs{
+	width: 924px;
+	margin: auto;
+	height:40px;
+}
+#searchDiv{
+	height: 20px;
+	float:right;
+	width:230px;
+	margin-top: -30px;
+	margin-bottom: 150px;
+	/*margin-right: 150px;*/
+}
+#searchBox{
+	/*float: right;*/
+	border-radius: 3px;
+}
+#searchBtn{
+	float: right;
+	border-radius: 3px;
+}
+#navs{
+	/*display: inline;*/
+	/*padding-bottom: 10px;*/
+}
+button {
+        background: rgb(63, 102, 200);
+        border: 1px solid black;
+        border-radius: 5px;
+        padding-top: 5px;
+        padding-top: 5px;
+        margin-top: 4px;
+}
+input {
+        background: rgb(37,69,149);
+        border: 1px solid black;
+        border-radius: 5px;
+        padding-top: 5px;
+        margin-top: 4px;
+}
+#nav{
+	/*padding-bottom: 10px;*/
+}
+#manImg{
+        margin-top: 34px;
+}
+
+#middleDiv {
+        float: left;
+        width: 220px;
+        margin-left: 30px;
+        margin-top: 60px;
+}
+.paraText {
+        font-size: 13px;
+        color: #666666;
+        font-family: georgia;
+        text-align: justify;
+}
+.titleText {
+        font-size: 16px;
+        color: #666666;
+        font-family: nevis;
+}
+.titleText2 {
+        font-size: 16px;
+        color: #3355aa;
+        font-family: nevis;
+}
+#manImg{
+	float: left;
+}
+.leftDiv > img {
+        display: block;
+}
+#middleDiv img{
+        margin-top: 15px;
+        margin-bottom: 20px;
+}
+.rightDiv {
+        float: right;
+        width: 220px;
+        /*margin-left: 30px;*/
+        margin-top: -65px;
+}
+.textAnnounce {
+        margin-top: 20px;
+        font-size: 13px;
+        color: #222222;
+        font-family: georgia;
+        font-style: italic;
+}
+
+.textBy {
+        font-family: georgia;
+        font-size: 10px;
+        color: #888888;
+}
+
+.separator {
+        color: #f0f0f0;
+        height: 3px;
+}
+
+.noUnderline {
+        text-decoration: none;
+        color: #3355aa;
+        font-family: georgia;
+        font-size: 13px;
+        text-align: center; 
+}
+/*sector div*/
+#sectorTitle{
+        /*color: blue;*/
+        float:center;
+        padding-left: ;
+        width:500px;
+        display: block-inline;
+        /*background-color: red;*/
+        margin-left: 220px;
+        text-align: center;
+        margin-top: 88px;
+
+}
+#sectors{
+        margin-bottom: 39px;
+        /*margin-left: 70px;*/
+        /*margin-right:70px;*/
+}
+#womensOneDiv{
+        float: left;
+        
+}
+#womensTwoDiv{
+        float: left;
+        
+}
+#boyImgDiv{
+        float: left;
+        
+}
+#womensThreeDiv{
+        float: left;
+        
+}
+#kidsImgDiv{
+        float:right;
+        padding-top: 10px;
+        /*width:20px;*/
+        
+}
+.imageTitles{
+        color: darkblue;
+        text-align: center;
+        padding-top: 10px;
+}
+.sectorDiv{
+        box-shadow: 1px 1px 5px #888888;
+        /*border: 1px solid gray;*/
+        background-color: rgb(255,255,255);
+        margin-left: 6px;
+        margin-right: 5px;
+        margin-top: 25px;
+}
+.rightMargin{
+        box-shadow: 1px 1px 5px #888888;
+        background-color: rgb(255,255,255);
+        margin-right: 5px;
+        margin-top: 25px;
+}
+/*images*/
+#kidsImage{
+
+}
+/*Image titles*/
+#kidsTitle{
+        padding-top: 1px;
+        /*padding-bottom: 10px;*/
+}
+.image{
+        margin-left: 5px;
+        margin-right: 5px ;
+}
+/*footer*/
+
+#footer{
+        width:1100px;
+        height: 110px;
+        margin:0 auto;
+        background: url("../images/footer_background.jpg");
+}
+#footer ul{
+        padding-top: 18px;
+        
+}
+#footer ul strong li{
+        
+        margin-left:0px !important;
+        padding-left: 10px !important;
+        padding-right: 5px !important;
+        border-left: 1px solid gray;
+        display: inline;
+}
+#footer ul strong li:first-child{
+        margin-left: 0px;
+        border-left: 0px !important;
+}
+#footer ul strong li a{
+        color:gray;
+}
+#footer ul strong li a:first-child{
+        /*margin-left: 0px;*/
+}
+.footerUlOne{
+        float:left;
+        /*margin-left: 80px;*/
+}
+.footerUlTwo{
+        float:right;
+        /*margin-right: 80px;*/
+}
+#footer hr{
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid black;
+    margin: 1em 0; padding: 0;
+    margin-top: 13px;
+    margin-left:80px;
+    margin-right:80px;
+}
+#footer p{
+        float: left;
+        color: gray;
+        /*margin-left: 80px;*/
+}
+.footerParaOne{
+        float: left;
+}
+.footerParaTwo{
+        float: right;
+        /*margin-right: 80px;*/
+}
+.footerParaTwo p{
+        width: 91px;
+        /*padding-right: 15px;*/
+}
+#footer div img{
+        height: 15px;
+        width:15px;
+}
+.container{
+                width: 924px;
+                /*border:1px solid black;*/
+                /*margin: auto;*/
+                text-align: left;
+                /*background-color:lightblue;*/
+                /*background-color: rgb(244,245,246);*/
+}
+.width940{
+        width: 940px;
+        margin:0 auto;
+}
+.floatLeft{
+        float: left;
+}
+.floatRight{
+        float: right;
+}
