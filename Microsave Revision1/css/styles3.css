@@ -263,6 +263,7 @@ h2{
 
 #footerTop{
 	height: 48px;
+	border-bottom: 1px solid black;
 }
 
 #footerTop ul li a{
