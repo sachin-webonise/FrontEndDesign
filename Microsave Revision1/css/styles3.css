@@ -284,7 +284,7 @@ h2{
 #footerTop{
 	height: 48px;
 	border-bottom: 1px solid black;
-	/*box-shadow: 1px #888888;*/
+	box-shadow: 0px 1px 0px #888888;
 	/*-moz-box-shadow:0 10px 5px #888888;*/
 	margin-bottom: 15px;
 }
