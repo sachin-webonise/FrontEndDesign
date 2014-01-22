@@ -98,9 +98,7 @@ li{
   font-style: italic;
    font-color:gray;
 }
-#headerStrip div ul{
-	padding-top: 14px;
-}
+
 #nav li{
 	font-family: georgia;
     font-style: italic;	
@@ -117,7 +115,8 @@ li{
 	color: white;
 	padding-left: 15px;
 	padding-right: 15px;
-	
+	display:inline-block;
+	line-height: 40px;
 }
 #nav li a:hover{
 	color:blue;
