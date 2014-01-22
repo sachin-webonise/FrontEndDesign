@@ -58,7 +58,12 @@ li{
 	border-color:  #284389;
 	background-color: #214193;
 	font-family: georgia;
-
+	box-shadow: 1px 0px 0px #888888;
+}
+.shadow {
+   -moz-box-shadow:    inset 1 0 6px #000000;
+   -webkit-box-shadow: inset 1 0 6px #000000;
+   box-shadow:         inset 1 0 6px #000000;
 }
 #searchBtn{
 	/*float: right;*/
@@ -68,6 +73,7 @@ li{
 	background-color: #446ac9;
 	border:1px solid;
 	border-color: #284389;
+	box-shadow: 1px 0px 0px #888888;
 }
 .placeholder {
 
