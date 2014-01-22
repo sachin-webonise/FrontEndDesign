@@ -12,6 +12,10 @@ form,tr, th, td,footer,header,nav,h2{
 	/*width: 1100px;*/
 	margin: 0 auto;
 }
+#microsaveLogoDiv{
+	height:62px;
+}
+
 li{
 	display: inline;
 	list-style: none;
