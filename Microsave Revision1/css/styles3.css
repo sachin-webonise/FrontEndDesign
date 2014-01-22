@@ -264,6 +264,8 @@ h2{
 #footerTop{
 	height: 48px;
 	border-bottom: 1px solid black;
+	/*box-shadow: 1px #888888;*/
+	-moz-box-shadow:0 10px 5px #888888;
 	margin-bottom: 15px;
 }
 
@@ -321,4 +323,9 @@ h2{
 }
 .marginRight15{
 	margin-right: 15px;
+}
+.footerParaProperties ul li{
+	height: 15px;
+	width: 15px;
+
 }
