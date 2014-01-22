@@ -274,6 +274,12 @@ h2{
 	text-decoration: none;
 }
 
+#footerTop ul li a:hover{
+	color: #ffffff;
+}
+h2 a:hover{
+	color: #ffffff;
+}
 .lineHeight{
 	line-height: 300%;
 
@@ -297,22 +303,12 @@ h2{
     background-repeat: no-repeat;
 
 }
-/*#leftUl:first-child{
-	margin-left: 0px;
-    margin-right: 10px;
-}*/
+
 #rightUl{
 	font-size: 11px;
 	font-family: georgia;	
 }
-/*#rightUl li{
-	display: inline;
-    margin-right: 10px;
-    padding-left: 10px;
-    background: url("../images/saperator_two.png");
-    background: top-right;
-    background-repeat: no-repeat;
-}*/
+
 .footerParaProperties p{
 	font-size: 11px;
 	font-family:  georgia;
