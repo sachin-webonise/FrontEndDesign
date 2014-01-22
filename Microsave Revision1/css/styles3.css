@@ -288,7 +288,7 @@ h2{
 
 }
 
-#leftUl li{
+.saperator{
 	display: inline;
     margin-right: 10px;
     padding-left: 10px;
@@ -305,14 +305,14 @@ h2{
 	font-size: 11px;
 	font-family: georgia;	
 }
-#rightUl li{
+/*#rightUl li{
 	display: inline;
     margin-right: 10px;
     padding-left: 10px;
     background: url("../images/saperator_two.png");
     background: top-right;
     background-repeat: no-repeat;
-}
+}*/
 .footerParaProperties p{
 	font-size: 11px;
 	font-family:  georgia;
