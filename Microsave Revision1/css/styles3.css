@@ -180,19 +180,26 @@ h2{
         margin-bottom: 10px;
         border-bottom: 1px solid #f3f3f4;
 }
+.textBy b{
+	font-family: georgia;
+    font-size: 10px;
+    color: #222222;
+}
+
 .textByLast {
-	padding-bottom: 20px;
+	padding-bottom: 13px; /**/
 	margin-bottom: 10px;
 	font-family: georgia;
     font-size: 10px;
     color: #888888;
     border-bottom: 1px solid #f3f3f4;
 }
-.textBy b{
+.textByLast b{
 	font-family: georgia;
     font-size: 10px;
     color: #222222;
 }
+
 .paraText {
         font-size: 13px;
         color: #666666;
