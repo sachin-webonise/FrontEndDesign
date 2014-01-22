@@ -264,6 +264,7 @@ h2{
 #footerTop{
 	height: 48px;
 	border-bottom: 1px solid black;
+	margin-bottom: 15px;
 }
 
 #footerTop ul li a{
@@ -294,10 +295,10 @@ h2{
     background-repeat: no-repeat;
 
 }
-#leftUl:first-child{
+/*#leftUl:first-child{
 	margin-left: 0px;
     margin-right: 10px;
-}
+}*/
 #rightUl{
 	font-size: 11px;
 	font-family: georgia;	
@@ -309,4 +310,10 @@ h2{
     background: url("../images/saperator_two.png");
     background: top-right;
     background-repeat: no-repeat;
+}
+.marginRight5{
+	margin-right: 5px;
+}
+.marginRight15{
+	margin-right: 15px;
 }
