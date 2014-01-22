@@ -311,6 +311,11 @@ h2{
     background: top-right;
     background-repeat: no-repeat;
 }
+.footerParaOne p{
+	font-size: 11px;
+	font-family:  georgia;
+	color: #888888;
+}
 .marginRight5{
 	margin-right: 5px;
 }
