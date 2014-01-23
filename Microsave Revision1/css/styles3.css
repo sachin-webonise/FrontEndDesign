@@ -235,7 +235,9 @@ h2{
 }
 /* ***************************** */
 #sectorTitle{
+		font-size: 28px;
         /*color: blue;*/
+        font-family: MyriadPro-Regular;
         float:center;
         /*padding-left: ;*/
         width:500px;
@@ -253,6 +255,7 @@ h2{
 }
 .imageTitles{
 	font-family: georgia;
+	font-size: 13px;
     color: #3355aa;
     text-align: center;
     padding:14px 0px 14px 0px;
