@@ -1,0 +1,187 @@
+div, body, p, a, button, form, li, fieldset {
+        margin: 0px;
+        padding: 0px;
+}
+
+#bodyContainer{
+	/*background-color: rgb(255,255,255);*/
+}
+
+#headerContainer ul{
+	margin-top:20px;
+	margin-bottom:20px;
+	display: inline-block;
+}	
+#headerContainer ul li {
+	height: 40px;
+
+	display: inline;	
+	vertical-align: center;
+}
+#navUl{
+	
+	float: left;
+}
+.rightPadding{
+	padding-right: 38px;
+}
+.rightPad45{
+	padding-right: 45px;
+}
+#headerContainer ul li b{
+	font-size: 14px;
+}
+#mainLogo{
+	/*float: left;*/
+	/*display: inline;*/
+	margin-top:4px;
+	margin-bottom:5px;
+	margin-left:9px;
+	margin-right:10px;
+	
+}
+
+#appSufer{
+	text-align: center;
+	width: 122px;
+	height: 25px;
+	font-size: 26px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.helveticas{
+	font-family:helvetica;
+}
+.leftPad{
+	padding-left: 5px;
+}
+.rightPad{
+	padding-right: 5px;
+}
+#fb_logo{
+	margin-left: 21px;
+}
+#social_site_logos{
+	float: right;
+}
+
+/*       body        */
+#body{
+	
+	background: url("../images/whole_background.png");
+	width: 1095px;
+	margin: 0 auto;
+}
+#bodyContainar{
+	/*background-color: rgb(255,194,88);*/
+}
+#containerInBody{
+	/*background: url("../images/whole_bkgrnd.jpg");*/
+	height:505px;
+}
+#signUpLogo{
+	background-color: rgb(255,194,88);
+	margin-bottom: 12px;
+
+}
+#rightBodySignUp{
+	margin-top: 48px;
+	margin-left: 70px;
+}
+#rightBodySignUp form {
+	width:300px;
+	border-top: 2px solid rgb(242,204,133);
+	
+}
+#rightBodySignUp form fieldset{
+	/*width:300px;*/
+}
+.increaseWidth{
+	width:286px;
+	border: 1px solid rgb(242,204,133);
+	margin-bottom: 16px;
+	height: 40px; /**/
+	box-shadow: inset 1px 1px 1px rgb(242,204,133), 1px 1px 1px rgb(242,204,133);
+}
+#userName{
+	margin-top: 22px;
+}
+#sign_up_btn{
+	margin-top: 4px;
+	margin-bottom: 30px;
+}
+#footer{
+	height: 90px;
+}
+ul li{
+	display: inline;
+	list-style:none;
+}
+.bold{
+	font-weight: bold;
+}
+#navUlfooter{
+	margin-left: 0px;
+	width:480px;
+	margin-top: 18px;
+}
+#wrapperOnBody{
+	background-color: rgb(255,194,88);
+}
+
+#rightFooter{
+	float:right;
+	width:147px;
+
+}
+#rightFooter p{
+	float:left;
+	margin-top: 15px;
+}
+#rightFooter img{
+	float: right;
+	margin-top: 10px;
+}
+a{
+	color: black;
+}
+#sandBox{
+	text-align: center;
+	height:500px;
+	width:200px;
+	/*margin-left: 0px;*/
+	/*margin-top: 450px;*/
+	/*display: inline-block;*/
+	/*float: left;*/
+}
+#sandBoxTitle{
+	/*margin-left: 0px;*/
+	text-align: center;
+	margin-top: 77px;
+	font-family:helvetica;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 40px;
+	color: rgb(34,34,34);
+}
+#sandBoxText{
+	/*margin-left: 0px;*/
+	text-align: center;
+	color:rgb(85,85,85);
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+	font-family:helvetica;
+	
+}
+#middleBody{
+	margin-top: 130px;
+	margin-left:140px;
+}
+.clearDiv{
+	clear: both;
+}
+#wrapperOnSandbox{
+	margin-top: 100px;
+	margin-left: -30px;
+}
