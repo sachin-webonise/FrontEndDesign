@@ -1,0 +1,190 @@
+html, body, div, h1, p,a,img,ol, ul, li,
+form,tr, th, td,footer,header,nav,h2{
+        margin: 0;
+        padding: 0;        
+}
+
+#header{
+	margin-bottom: 35px;
+}
+#header div:first-child{
+ 		margin-bottom: 13px;
+}
+#header > div >  a{
+	display: block;
+	width: 239px;
+	height:57px;
+	float: left;
+	background:url("../images/microsave_logo.png");
+	margin: 10px 0px 0px 21px;
+}
+.container{
+	width:940px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+#wrapper{
+	background-color: #f4f5f6;
+	margin: 0 auto;
+}
+.navigation{
+	background-color: #3355aa;
+	height: 40px;
+
+}
+.navigation div ul{
+	float: left;
+}
+.navigation div ul li{
+	list-style: none;
+	display: inline;
+	background: url("../images/saperator.png");
+	background:top-left;
+    background-repeat: no-repeat;
+
+}
+
+.navigation div ul li a{
+	text-decoration: none;
+	padding: 10px 9px 11px 17px;
+	color: #ffffff;
+	
+	font-family: georgia;
+	font-style: italic;
+	font-size: 15px;
+	line-height:36px;
+}
+.navigation div ul li a:hover{
+	color:gray;
+}
+.navigation > div > div{
+	float: right;
+
+	margin: 0px;
+}
+.navigation > div > div >input {
+	width: 150px;
+	border-radius: 2px;
+	border:1px solid #284389;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 10px 5px 10px;
+	float: left;
+	background: #214193;
+	font-family: georgia;
+	font-size: 14px;
+	font-style: italic;
+	color: #ffffff;	
+}
+
+.navigation > div > div > button{
+	border-radius: 2px;
+	height: 30px;
+	width: 40px;	
+	float: left;
+	margin: 5px 0px 5px 10px;
+
+	background-color: #446ac9;
+	border:1px #284389;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ffffff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #ffffff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #ffffff;
+}
+
+.clear{
+	clear: both;
+}
+h3{
+	font-size: 16px;
+	line-height: 36px;
+	font-family: Myriad Pro;
+	font-color: #666666;
+}
+
+/*middle body*/
+.middleBodyTop > div > div >h3{
+	
+	border-bottom: 3px solid #eebe00;
+}
+
+.middleBodyTop > div > div{
+	width: 220px;
+	float: left;
+	margin-right: 20px;
+}
+.middleBodyTop  div  div p{
+	
+
+	font-size: 13px;
+	line-height: 20px;
+	font-family: georgia;
+	font-color: red;
+	/*text-align: center;*/
+	margin-bottom: 18px;
+}
+.middleBodyTop > div > div:first-child{
+	width:420px;
+	height: 340px;
+	margin-right: 60px;
+	float:left;
+}
+.middleBodyTop > div > div:last-child{
+	margin-right: 0px;
+}
+.textAnnounce {
+
+        font-size: 13px;
+        color: #222222;
+        font-family: georgia;
+        font-style: italic;
+        margin-bottom: 10px;
+}
+.textAnnounce a{
+	color: #222222;
+	text-decoration: none;
+}
+
+.textBy {
+        font-family: georgia;
+        font-size: 10px;
+        color: #888888;
+        padding-bottom:13px; 
+        margin-bottom: 10px;
+        border-bottom: 1px solid #f3f3f4;
+
+}
+.textBy a{
+	text-decoration: none;
+}
+.textBy b{
+	font-family: georgia;
+    font-size: 10px;
+    color: #222222;
+
+}
+
+.textByLast {
+	padding-bottom: 13px; /**/
+	margin-bottom: 10px;
+	font-family: georgia;
+    font-size: 10px;
+    color: #888888;
+    border-bottom: 1px solid #f3f3f4;
+}
+.textBy{
+	text-decoration: none;
+}
+.textByLast b{
+	font-family: georgia;
+    font-size: 10px;
+    color: #222222;
+}
