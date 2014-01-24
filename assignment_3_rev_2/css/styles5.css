@@ -1,11 +1,12 @@
-html, body, div, h1, p,a,img,ol, ul, li,
-form,tr, th, td,footer,header,nav,h3{
+/*html, body, div, h1, p,a,img,ol,ul, li,
+form,tr, th, td,footer,header,nav,h3*/
+*{
         margin: 0;
         padding: 0;        
 }
 
 #header{
-	margin-bottom: 35px;
+	margin:0px 0px 35px 0px;
 }
 #header div:first-child{
  	margin-bottom: 13px;
@@ -103,18 +104,17 @@ form,tr, th, td,footer,header,nav,h3{
 .clear{
 	clear: both;
 }
-h3{
-	font-size: 16px;
-	line-height: 36px;
-	font-family: Myriad Pro;
-	font-color: #666666;
-}
 
 /*middle body*/
 .middleBodyTop{
 	margin-bottom: 77px;
 }
 .middleBodyTop > div > div >h3{
+	font-size: 16px;
+	line-height: 36px;
+	/*text-decoration: all;*/
+	font-family: nevis;
+	color: #666666;
 	border-bottom: 3px solid #eebe00;
 	margin: 0px 0px 19px 0px;
 }
@@ -122,7 +122,7 @@ h3{
 .middleBodyTop > div > div{
 	width: 220px;
 	float: left;
-	margin-right: 20px;
+	margin: 28px 20px 0px 0px;
 }
 /*.middleBodyTop  div  div p{
 	font-size: 13px;
@@ -135,8 +135,9 @@ h3{
 .middleBodyTop > div > div:first-child{
 	width:420px;
 	height: 340px;
-	margin-right: 60px;
+	margin:0px 60px 0px 0px;
 	float:left;
+
 }
 .middleBodyTop > div > div:last-child{
 	margin-right: 0px;
@@ -153,43 +154,49 @@ h3{
 	color: #222222;
 	text-decoration: none;
 }
+.textAnnounce a:hover{
+	color: blue;
+}
+
 .textBy{
 	font-size: 10px;
 	line-height:16px ;
 	font-family: georgia;
     color: #888888;
     padding-bottom:13px; 
-    margin:0px 0px 13px 0px;
+    margin:0px 0px 0px 0px;
     border-bottom: 1px solid #f3f3f4;
 }
 
 .textBy a{
 	text-decoration: none;
-}
-.textBy b{
 	font-family: georgia;
     font-size: 10px;
-    color: #222222;
-
+    font-style: italic;
+    color: #333333;
 }
-
+.textBy a:hover{
+	color: blue;
+}
 .textByLast {
-	padding-bottom: 13px; /**/
+	padding-bottom: 13px; 
 	margin-bottom: 10px;
 	font-family: georgia;
     font-size: 10px;
     color: #888888;
     border-bottom: 1px solid #f3f3f4;
 }
-.textBy{
+.textByLast a{
 	text-decoration: none;
-}
-.textByLast b{
 	font-family: georgia;
     font-size: 10px;
-    color: #222222;
+    font-style: italic;
+    color: #000;
+    color: #333333;
 }
-
+.textByLast a:hover{
+	color: blue;
+}
 .rightDiv a{
 	text-decoration: none;
 }
@@ -203,7 +210,7 @@ h3{
 .imgMainHeading div {
 	font-size: 28px;
    	line-height: 36px;
-    font-family: MyriadPro-Regular;
+    font-family: Myriad Pro;
     /*float:center;*/
 	
 
