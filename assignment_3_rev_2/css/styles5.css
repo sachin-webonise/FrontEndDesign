@@ -251,7 +251,7 @@ li{
 	background:url("../images/footer_pattern.jpg");
 	background-repeat: repeat;
 }
-#footer div div:first-child{
+.footerTop{
 	height: 48px;
 	border-bottom: 1px solid black;
 	box-shadow: 0px 1px 0px #888888;
@@ -259,19 +259,19 @@ li{
 	margin-bottom: 15px;
 }
 
-#footer div div:first-child ul:first-child{
+.footerTop ul:first-child{
 	font-size: 14px;
 	line-height:auto;
 	font-family: georgia;
 	float: left;
 }
-#footer div div:first-child ul:last-child{
+.footerTop ul:last-child{
 	font-size: 11px;
 	line-height:auto;
 	font-family: georgia;
 	float: right;	
 }
-#footer div div:first-child ul li{
+.footerTop ul li{
 	display: inline;
     padding-right: 10px;
     padding-left: 10px;
@@ -279,46 +279,44 @@ li{
     background: top-right;
     background-repeat: no-repeat;
 }
-#footer div div:first-child ul li a{
+.footerTop ul li a{
 	color: #aaaaaa;
 	text-decoration: none;
 }
 
-#footer div div:first-child ul li a:hover{
+.footerTop ul li a:hover{
 	color: #ffffff;
 }
 
-#footer div div:last-child div p{
+.footerBottom div:first-child{
 	font-size: 11px;
 	font-family:  georgia;
 	color: #888888;
 }
-#footer div div:last-child div:last-child ul{
-	float: right;
+.footerBottom div:last-child ul{
+	float: left;
 }
-#footer div div:last-child div ul li{
+.footerBottom div ul li{
 	height: 15px;
 	width: 15px;
 }
-#footer div div:last-child div:last-child ul li input{
+.footerBottom div:last-child ul li input{
 	float: left;
 }
-#footer div div:last-child div:first-child{
+.footerBottom div ul li{
+	height: 15px;
+	width: 15px;
+}
+.footerBottom div{
 	float: left;
-}
-#footer div div:last-child div:last-child{
-	float: right;
-}
-/**/
-.footerParaProperties p{
 	font-size: 11px;
 	font-family:  georgia;
 	color: #888888;
 }
-
-.footerParaProperties ul li{
-	height: 15px;
-	width: 15px;
-
+.footerBottom div:last-child{
+	float: right;
 }
-/**/
+.footerBottom div:last-child div:first-child{
+	float: left;
+	margin-right: 15px;
+}
