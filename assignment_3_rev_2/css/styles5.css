@@ -114,6 +114,7 @@ form,tr, th, td,footer,header,nav,h3*/
 	line-height: 36px;
 	/*text-decoration: all;*/
 	font-family: nevis;
+	font-style: bold;
 	color: #666666;
 	border-bottom: 3px solid #eebe00;
 	margin: 0px 0px 19px 0px;
@@ -122,22 +123,34 @@ form,tr, th, td,footer,header,nav,h3*/
 .middleBodyTop > div > div{
 	width: 220px;
 	float: left;
-	margin: 28px 20px 0px 0px;
+	margin: 13px 20px 0px 0px;
+}
+.middleDiv p{
+	width:219px;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: georgia;
+	color: #666666;
+	/*text-align: center;*/
+	margin:0px 0px 18px 0px;
 }
 /*.middleBodyTop  div  div p{
 	font-size: 13px;
 	line-height: 20px;
 	font-family: georgia;
 	font-color: red;
-	/*text-align: center;*/
-	/*margin-bottom: 18px;*/
+	text-align: center;
+	margin-bottom: 18px;
+}*/
 
 .middleBodyTop > div > div:first-child{
 	width:420px;
 	height: 340px;
 	margin:0px 60px 0px 0px;
 	float:left;
-
+	box-shadow: 1px 0px 3px #888888;
+	border-radius: 3px;
+	/*border: 1px solid black;*/
 }
 .middleBodyTop > div > div:last-child{
 	margin-right: 0px;
@@ -172,7 +185,7 @@ form,tr, th, td,footer,header,nav,h3*/
 	text-decoration: none;
 	font-family: georgia;
     font-size: 10px;
-    font-style: italic;
+    font-style: none;
     color: #333333;
 }
 .textBy a:hover{
@@ -190,14 +203,15 @@ form,tr, th, td,footer,header,nav,h3*/
 	text-decoration: none;
 	font-family: georgia;
     font-size: 10px;
-    font-style: italic;
+    font-style: none;
     color: #000;
     color: #333333;
 }
 .textByLast a:hover{
 	color: blue;
 }
-.rightDiv a{
+.rightDiv > a{
+	font-style: italic;
 	text-decoration: none;
 }
 
@@ -210,7 +224,8 @@ form,tr, th, td,footer,header,nav,h3*/
 .imgMainHeading div {
 	font-size: 28px;
    	line-height: 36px;
-    font-family: Myriad Pro;
+   	font-style: bold;
+    font-family: nevis;
     /*float:center;*/
 	
 
