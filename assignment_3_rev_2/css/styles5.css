@@ -133,14 +133,6 @@ form,tr, th, td,footer,header,nav,h3{
 	/*text-align: center;*/
 	margin:0px 0px 18px 0px;
 }
-/*.middleBodyTop  div  div p{
-	font-size: 13px;
-	line-height: 20px;
-	font-family: georgia;
-	font-color: red;
-	text-align: center;
-	margin-bottom: 18px;
-}*/
 
 .middleBodyTop > div > div:first-child{
 	width:420px;
@@ -149,7 +141,7 @@ form,tr, th, td,footer,header,nav,h3{
 	float:left;
 	box-shadow: 1px 0px 3px #888888;
 	border-radius: 3px;
-	/*border: 1px solid black;*/
+	
 }
 .middleBodyTop > div > div:last-child{
 	margin-right: 0px;
@@ -214,29 +206,18 @@ form,tr, th, td,footer,header,nav,h3{
 	text-decoration: none;
 }
 
-/* ****************************************** */
 .imgMainHeading{
 	margin-bottom: 18px;
-
 }
 
 .imgMainHeading div {
 	font-size: 28px;
-   	line-height: 36px;
-   
+   	line-height: 36px;   
     font-family: nevis;
-    /*float:center;*/
-	
-    font-weight: bold;
-    /*width:500px;*/
-  
-    color: #444444;
-   
-    /*margin-left: 220px;*/
+    font-weight: bold;   
+    color: #444444;   
     text-align: center;
 }
-/*******************/
-
 
 .middleBodyBottom{
 	height: 280px;
