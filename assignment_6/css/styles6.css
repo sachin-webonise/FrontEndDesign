@@ -2,6 +2,15 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+@font-face{
+font-family:'robotoBold';
+src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+     url('../fonts/roboto-bold-webfont.woff') format('woff'), 
+     url('../fonts/roboto-bold-webfont.ttf')  format('truetype'), 
+     url('../fonts/roboto-bold-webfont.svg#svgFontName') format('svg'); 
+}
+
 .container{
 	width:940px;
 	margin: 0 auto;
@@ -19,7 +28,7 @@ a{
 }
 /* header */
 #header{
-	
+	background-color: #ffffff;
 }
 #header > div > a{
 	display: block;
@@ -28,16 +37,18 @@ a{
 	background: url("../images/Langmart_logo.png");
 	float: left;
 	margin: 12px 0px 10px 0px;
+	
 }
 .nav{
 	float: right;
 }
 .nav ul{
-	margin: 21px 53px 0px 0px;
+	margin: 21px 8px 0px 0px;
 	float: left;
 }
 .nav ul li:first-child{
 	margin: 0px 42px 0px 0px;
+	color: #444444;
 }
 .nav ul li:first-child a{
 	background: url("../images/Langmart_home.png");
@@ -45,13 +56,18 @@ a{
     background-repeat: no-repeat;
 }
 .nav ul li{
-	margin: 0px 45px 0px 0px;
+	margin: 0px 45px 0px 0px;	
+	font: 14px;
+	line-height: 24px;
+	font-family: "robotoBold";
 }
 .nav ul li a{
 	background: url("../images/how_it_works.png");
 	background:top-left;
     background-repeat: no-repeat;
     padding: 0px 0px 0px 25px;
+    color: #666666;
+    /*font-weight: bold;*/
 }
 .nav ul li:last-child a{
 	background: url("../images/plans_and_pricing.png");
