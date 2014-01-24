@@ -302,20 +302,18 @@ li{
 .footerBottom div:last-child ul{
 	float: left;
 }
-.footerBottom div ul li:first-child a{
+.footerBottom div:last-child ul li:first-child a{
  	background: url("../images/facebook_logo.png");
-}
-.footerBottom div ul li a{
-	height: 15px;
-	width: 15px;
-	background: url("../images/twitter_logo.png");
-	/*margin-right: 5px;*/
-}
-.footerBottom div ul li:last-child a{
-	background: url("../images/linkedin_logo.png");
 }
 .footerBottom div:last-child ul li a{
 	float: left;
+	height: 15px;
+	width: 15px;
+	background: url("../images/twitter_logo.png");
+	margin-right: 5px;
+}
+.footerBottom div:last-child ul li:last-child a{
+	background: url("../images/linkedin_logo.png");
 }
 
 .footerBottom div{
@@ -327,7 +325,7 @@ li{
 .footerBottom div:last-child{
 	float: right;
 }
-.footerBottom div:last-child div:first-child{
+.footerBottom div:last-child div{
 	float: left;
-	margin-right: 15px;
+	margin-right: 14px;
 }
