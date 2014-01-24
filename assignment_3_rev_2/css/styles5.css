@@ -302,18 +302,22 @@ li{
 .footerBottom div:last-child ul{
 	float: left;
 }
+.footerBottom div ul li:first-child{
+ 	background: url("./images/facebook_logo.png");
+}
 .footerBottom div ul li{
 	height: 15px;
 	width: 15px;
-	margin-right: 5px;
+	background: url("./images/twitter_logo.png");
+	/*margin-right: 5px;*/
+}
+.footerBottom div ul li:last-child{
+	background: url("./images/linkedin_logo.png");
 }
 .footerBottom div:last-child ul li input{
 	float: left;
 }
-.footerBottom div ul li{
-	height: 15px;
-	width: 15px;
-}
+
 .footerBottom div{
 	float: left;
 	font-size: 11px;
