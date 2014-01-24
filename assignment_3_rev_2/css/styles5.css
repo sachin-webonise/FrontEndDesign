@@ -113,7 +113,7 @@ form,tr, th, td,footer,header,nav,h3{
 	line-height: 36px;
 	/*text-decoration: all;*/
 	font-family: nevis;
-	font-style: bold;
+	font-weight: bold;
 	color: #666666;
 	border-bottom: 3px solid #eebe00;
 	margin: 0px 0px 19px 0px;
@@ -216,7 +216,7 @@ form,tr, th, td,footer,header,nav,h3{
 
 /* ****************************************** */
 .imgMainHeading{
-	margin-bottom: 28px;
+	margin-bottom: 18px;
 
 }
 
@@ -227,7 +227,7 @@ form,tr, th, td,footer,header,nav,h3{
     font-family: nevis;
     /*float:center;*/
 	
-    font-style: bold;
+    font-weight: bold;
     /*width:500px;*/
   
     color: #444444;
