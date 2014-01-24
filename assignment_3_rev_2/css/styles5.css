@@ -8,7 +8,7 @@ form,tr, th, td,footer,header,nav,h2{
 	margin-bottom: 35px;
 }
 #header div:first-child{
- 		margin-bottom: 13px;
+ 	margin-bottom: 13px;
 }
 #header > div >  a{
 	display: block;
@@ -220,19 +220,22 @@ h3{
 }
 .middleBodyBottom div ul{
 	height: 280px;
+
 }
 .smallImages{
-        box-shadow: 1px 1px 5px #888888;
+        box-shadow: 2px 2px 2px #888888;
         background-color: #ffffff;
         padding: 5px;
         margin-right: 16px;
-		float: left;       
+		float: left;  
+		border-radius: 3px;     
 }
 .kidsLi{
-	box-shadow: 1px 1px 5px #888888;
+	box-shadow: 1px 1px 3px #888888;
     background-color: #ffffff;
     padding: 5px;
     float: left;
+    border-radius: 3px;
 }
 .middleBodyBottom div ul li div:first-child{
 	font-family: georgia;
@@ -258,7 +261,7 @@ li{
 	box-shadow: 0px 1px 0px #888888;
 	-moz-box-shadow:0 1px 0px #888888;
 	margin:17px 0px 15px 0px;
-	
+
 }
 
 .footerTop ul:first-child{
@@ -302,6 +305,7 @@ li{
 .footerBottom div ul li{
 	height: 15px;
 	width: 15px;
+	margin-right: 5px;
 }
 .footerBottom div:last-child ul li input{
 	float: left;
