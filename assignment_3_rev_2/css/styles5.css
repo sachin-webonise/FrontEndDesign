@@ -223,7 +223,7 @@ h3{
 
 }
 .smallImages{
-        box-shadow: 2px 2px 2px #888888;
+        box-shadow: 0px 0px 3px #888888;
         background-color: #ffffff;
         padding: 5px;
         margin-right: 16px;
@@ -231,7 +231,7 @@ h3{
 		border-radius: 3px;     
 }
 .kidsLi{
-	box-shadow: 1px 1px 3px #888888;
+	box-shadow: 0px 0px 3px #888888;
     background-color: #ffffff;
     padding: 5px;
     float: left;
@@ -302,19 +302,19 @@ li{
 .footerBottom div:last-child ul{
 	float: left;
 }
-.footerBottom div ul li:first-child{
- 	background: url("./images/facebook_logo.png");
+.footerBottom div ul li:first-child a{
+ 	background: url("../images/facebook_logo.png");
 }
-.footerBottom div ul li{
+.footerBottom div ul li a{
 	height: 15px;
 	width: 15px;
-	background: url("./images/twitter_logo.png");
+	background: url("../images/twitter_logo.png");
 	/*margin-right: 5px;*/
 }
-.footerBottom div ul li:last-child{
-	background: url("./images/linkedin_logo.png");
+.footerBottom div ul li:last-child a{
+	background: url("../images/linkedin_logo.png");
 }
-.footerBottom div:last-child ul li input{
+.footerBottom div:last-child ul li a{
 	float: left;
 }
 
