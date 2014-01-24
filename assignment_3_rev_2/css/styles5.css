@@ -1,6 +1,5 @@
-/*html, body, div, h1, p,a,img,ol,ul, li,
-form,tr, th, td,footer,header,nav,h3*/
-*{
+html, body, div, h1, p,a,img,ol,ul, li,
+form,tr, th, td,footer,header,nav,h3{
         margin: 0;
         padding: 0;        
 }
@@ -224,11 +223,11 @@ form,tr, th, td,footer,header,nav,h3*/
 .imgMainHeading div {
 	font-size: 28px;
    	line-height: 36px;
-   	font-style: bold;
+   
     font-family: nevis;
     /*float:center;*/
 	
-
+    font-style: bold;
     /*width:500px;*/
   
     color: #444444;
@@ -302,6 +301,7 @@ li{
 	font-family: georgia;
 	float: right;	
 }
+
 .footerTop ul li{
 	display: inline;
     padding-right: 10px;
@@ -309,6 +309,19 @@ li{
     background: url("../images/saperator_two.png");
     background: top-right;
     background-repeat: no-repeat;
+}
+.footerTop ul:first-child li:first-child{
+	display: inline;
+    padding:0px 10px 0px 0px;
+    background:none;
+}
+.footerTop ul:last-child li:first-child{
+	display: inline;
+    background:none;
+}
+.footerTop ul:last-child li:last-child{
+	display: inline;
+    padding-right: 0px;
 }
 .footerTop ul li a{
 	color: #aaaaaa;
