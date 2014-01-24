@@ -352,16 +352,17 @@ h2 a:hover{
 	font-family:  georgia;
 	color: #888888;
 }
+
+.footerParaProperties ul li{
+	height: 15px;
+	width: 15px;
+
+}
 .marginRight5{
 	margin-right: 5px;
 }
 .marginRight15{
 	margin-right: 15px;
-}
-.footerParaProperties ul li{
-	height: 15px;
-	width: 15px;
-
 }
 
 /***********************************************/

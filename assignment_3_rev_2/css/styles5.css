@@ -245,4 +245,80 @@ li{
 	display: inline;
 	list-style: none;
 }
+/*********************footer ****************************/
+#footer{
+	height: 110px;
+	background:url("../images/footer_pattern.jpg");
+	background-repeat: repeat;
+}
+#footer div div:first-child{
+	height: 48px;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 1px 0px #888888;
+	-moz-box-shadow:0 1px 0px #888888;
+	margin-bottom: 15px;
+}
 
+#footer div div:first-child ul:first-child{
+	font-size: 14px;
+	line-height:auto;
+	font-family: georgia;
+	float: left;
+}
+#footer div div:first-child ul:last-child{
+	font-size: 11px;
+	line-height:auto;
+	font-family: georgia;
+	float: right;	
+}
+#footer div div:first-child ul li{
+	display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: url("../images/saperator_two.png");
+    background: top-right;
+    background-repeat: no-repeat;
+}
+#footer div div:first-child ul li a{
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+#footer div div:first-child ul li a:hover{
+	color: #ffffff;
+}
+
+#footer div div:last-child div p{
+	font-size: 11px;
+	font-family:  georgia;
+	color: #888888;
+}
+#footer div div:last-child div:last-child ul{
+	float: right;
+}
+#footer div div:last-child div ul li{
+	height: 15px;
+	width: 15px;
+}
+#footer div div:last-child div:last-child ul li input{
+	float: left;
+}
+#footer div div:last-child div:first-child{
+	float: left;
+}
+#footer div div:last-child div:last-child{
+	float: right;
+}
+/**/
+.footerParaProperties p{
+	font-size: 11px;
+	font-family:  georgia;
+	color: #888888;
+}
+
+.footerParaProperties ul li{
+	height: 15px;
+	width: 15px;
+
+}
+/**/
