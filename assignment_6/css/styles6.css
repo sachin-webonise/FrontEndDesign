@@ -8,7 +8,6 @@
 	overflow:hidden;
 }
 #wrapper{
-	background-color: #f4f5f6;
 	margin: 0 auto;
 }
 li{
@@ -37,10 +36,16 @@ a{
 	margin: 21px 53px 0px 0px;
 	float: left;
 }
+.nav ul li:first-child{
+	margin: 0px 42px 0px 0px;
+}
 .nav ul li:first-child a{
 	background: url("../images/Langmart_home.png");
 	background:top-left;
     background-repeat: no-repeat;
+}
+.nav ul li{
+	margin: 0px 45px 0px 0px;
 }
 .nav ul li a{
 	background: url("../images/how_it_works.png");
@@ -49,7 +54,7 @@ a{
     padding: 0px 0px 0px 25px;
 }
 .nav ul li:last-child a{
-	background: url("../images/Langmart_home.png");
+	background: url("../images/plans_and_pricing.png");
 	background:top-left;
     background-repeat: no-repeat;
 }
