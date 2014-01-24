@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width:940px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+#wrapper{
+	background-color: #f4f5f6;
+	margin: 0 auto;
+}
+li{
+	display: inline;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* header */
+#header{
+	
+}
+#header > div > a{
+	display: block;
+	width: 140px;
+	height: 38px;
+	background: url("../images/Langmart_logo.png");
+	float: left;
+	margin: 12px 0px 10px 0px;
+}
+.nav{
+	float: right;
+}
+.nav ul{
+	margin: 21px 53px 0px 0px;
+	float: left;
+}
+.nav ul li:first-child a{
+	background: url("../images/Langmart_home.png");
+	background:top-left;
+    background-repeat: no-repeat;
+}
+.nav ul li a{
+	background: url("../images/how_it_works.png");
+	background:top-left;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 25px;
+}
+.nav ul li:last-child a{
+	background: url("../images/Langmart_home.png");
+	background:top-left;
+    background-repeat: no-repeat;
+}
+.nav input{
+	margin: 14px 0px 0px 0px;
+	float: left;
+}
+
+/* end header*/

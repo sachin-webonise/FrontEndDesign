@@ -14,7 +14,7 @@ form,tr, th, td,footer,header,nav,h3{
 	display: block;
 	width: 239px;
 	height:57px;
-	float: left;
+	/*float: left;*/
 	background:url("../images/microsave_logo.png");
 	margin: 10px 0px 0px 21px;
 }
