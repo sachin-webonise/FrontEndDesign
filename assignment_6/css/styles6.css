@@ -135,8 +135,9 @@ a{
 }
 .signup_buttons{
 	width: 561px;
-	margin: auto;
-	
+	height: 50px;
+	/*margin: auto;*/
+	margin: 0px 0px 35px 190px;
 }
 .signup_buttons div{
 	color: #666666;	
