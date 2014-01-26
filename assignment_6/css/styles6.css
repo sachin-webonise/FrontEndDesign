@@ -5,12 +5,18 @@
 
 @font-face{
 font-family:'robotoBold';
-src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
-     url('../fonts/roboto-bold-webfont.woff') format('woff'), 
-     url('../fonts/roboto-bold-webfont.ttf')  format('truetype'), 
-     url('../fonts/roboto-bold-webfont.svg#svgFontName') format('svg'); 
+src: url('../fonts/roboto_bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+     url('../fonts/roboto_bold/roboto-bold-webfont.woff') format('woff'), 
+     url('../fonts/roboto_bold/roboto-bold-webfont.ttf')  format('truetype'), 
+     url('../fonts/roboto_bold/roboto-bold-webfont.svg#svgFontName') format('svg'); 
 }
-
+@font-face{
+font-family:'robotoMedium';
+src: url('../fonts/roboto_medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'), 
+     url('../fonts/roboto_medium/roboto-medium-webfont.woff') format('woff'), 
+     url('../fonts/roboto_medium/roboto-medium-webfont.ttf')  format('truetype'), 
+     url('../fonts/roboto_medium/roboto-medium-webfont.svg#svgFontName') format('svg'); 
+}
 .container{
 	width:940px;
 	margin: 0 auto;
@@ -56,9 +62,7 @@ a{
     background-repeat: no-repeat;
 }
 .nav ul li{
-	margin: 0px 45px 0px 0px;	
-	font: 14px;
-	line-height: 24px;
+	margin: 0px 45px 0px 0px;		
 	font-family: "robotoBold";
 }
 .nav ul li a{
@@ -67,7 +71,9 @@ a{
     background-repeat: no-repeat;
     padding: 0px 0px 0px 25px;
     color: #666666;
-    /*font-weight: bold;*/
+    font: 14px;
+	line-height: 24px;
+
 }
 .nav ul li:last-child a{
 	background: url("../images/plans_and_pricing.png");
@@ -77,6 +83,51 @@ a{
 .nav input{
 	margin: 14px 0px 0px 0px;
 	float: left;
+	height: 30px;
+	width:80px;
+	border: 1px black solid;
+	border-radius: 3px;
+	background-color: #474747;
+	color: #ffffff;	
+	font: 14px;
+	line-height: 24px;
+	font-family: "robotoBold";
+	box-shadow: 1px 0px 3px;
+	-moz-box-shadow:    inset 2 0 0px #474747;
+   	-webkit-box-shadow: inset 2 0 0px #474747;
+   	box-shadow:         inset 2 0 0px #474747;
 }
 
 /* end header*/
+/* Body */
+#body div:first-child{
+   background-color: #eeeeee;
+   text-align: center;
+}
+#body div:first-child div img{
+	margin: 260px 0px 0px 0px;
+}
+#body div:first-child div h2{
+	font-size: 24px;
+	line-height: 32px;
+	color: #666666;
+	font-family: "robotoMedium";
+}
+#body div:first-child div h1{
+	font-size: 30px;
+	line-height: 32px;
+	color: #444444;
+	font-family: "robotoMedium";
+}
+#body div:first-child div div{
+	font: 14px;
+	line-height: 24px;
+	color: #3f3f3f;
+	font-family: "robotoBold";
+	line-height: 35px;
+	width: 120px;
+	/*text-align: center;*/
+	margin: auto;
+	background-color: #f7f7f7;
+	border-radius: 15px;
+}
