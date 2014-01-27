@@ -13,6 +13,27 @@
 	background-color: #ffffff;
 	margin: 0 auto;
 }
+@font-face {
+	font-family: 'robotoLight';
+	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot');
+	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+	url('../fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+	url('../fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'robotoThin';
+	src: url('../fonts/roboto_thin/Roboto-Thin-webfont.eot');
+	src: url('../fonts/roboto_thin/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto_thin/Roboto-Thin-webfont.woff') format('woff'),
+	url('../fonts/roboto_thin/Roboto-Thin-webfont.ttf') format('truetype'),
+	url('../fonts/roboto_thin/oboto-Thin-webfont.svg#robotothin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 #header{
 	padding: 57px 0px 18px 0px;
 	margin: 0px 0px 12px 0px;
@@ -41,6 +62,9 @@
 a{
 	text-decoration: none;
 }
+a:hover{
+	color: black;
+}
 li{
 	list-style: none;
 	display: inline;
@@ -66,20 +90,57 @@ li{
   	border:1px solid #e1e1e1;
 }
 
-@font-face {
-	font-family: 'robotoLight';
-	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot');
-	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
-	url('../fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
-	url('../fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
+
 /*top div*/
-.topDiv ul li{
+.topDiv ul{
+	margin: 0px 0px 50px 0px;
+}
+.topDiv ul:first-child li{
 	background: url('../images/breadcrumbs_seperator.png') no-repeat right;
-	/*background-repeat: no-repeat;*/
 	margin: 0px 10px 0px 0px;
 	padding: 0px 8px 0px 0px;
+}
+.topdiv ul:first-child li a{
+ 	font-size: 11px;
+ 	line-height: 17px;
+ 	color: #1a4da2;
+}
+.topdiv ul:first-child li a:hover{
+	color: black;
+}
+.topDiv ul:first-child li:last-child{
+	background-image: none;
+}
+.topDiv div{
+	float: left;
+	width: 202px;
+	height: 53px;
+}
+.topDiv div h2{
+	float: right;
+	font: 36px "robotoThin";
+	line-height: 53px;
+	color: #d54405;
+}
+.destinationImage{
+	height: 53px;
+	width: 53px;
+	margin-right: 14px;
+	float: left;
+	display: block;
+}
+.destinationMenu{
+	float: right;
+}
+.destinationMenu li{
+	margin: 0px 35px 0px 0px;
+}
+.destinationMenu li a{
+	font: 15px "robotoLight";
+	color: #1a4da2;
+	line-height: 53px;
+}
+.destinationMenu li a:hover{
+	color: black;
+
 }
