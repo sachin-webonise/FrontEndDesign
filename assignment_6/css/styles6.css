@@ -130,7 +130,7 @@ a{
 	font-family: "robotoBold";
 	line-height: 35px;
 	width: 120px;
-	/*text-align: center;*/
+	text-align: center;
 	/*margin: auto;*/
 	background-color: #f7f7f7;
 	border-radius: 15px;
@@ -266,9 +266,10 @@ a{
 /* map*/
 #map{
 	background-color: #ffffff;
+	padding: 0px 0px 18px 0px;
 }
 #map div {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 }
 .world_map img{
 	float: left;
@@ -318,7 +319,14 @@ a{
 	color: #dd4422;
 	font-family: "robotoMedium";
 }
+.setBackGround{
+	background-color: #f7f7f7;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
+}
+
+#map div:first-child{
+	margin-bottom: 20px;
 }
 
