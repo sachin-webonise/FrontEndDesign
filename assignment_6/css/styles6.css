@@ -4,18 +4,18 @@
 }
 
 @font-face{
-font-family:'robotoBold';
-src: url('../fonts/roboto_bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
-     url('../fonts/roboto_bold/roboto-bold-webfont.woff') format('woff'), 
-     url('../fonts/roboto_bold/roboto-bold-webfont.ttf')  format('truetype'), 
-     url('../fonts/roboto_bold/roboto-bold-webfont.svg#svgFontName') format('svg'); 
+	font-family:'robotoBold';
+	src: url('../fonts/roboto_bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/roboto_bold/roboto-bold-webfont.woff') format('woff'), 
+	     url('../fonts/roboto_bold/roboto-bold-webfont.ttf')  format('truetype'), 
+	     url('../fonts/roboto_bold/roboto-bold-webfont.svg#svgFontName') format('svg'); 
 }
 @font-face{
-font-family:'robotoMedium';
-src: url('../fonts/roboto_medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'), 
-     url('../fonts/roboto_medium/roboto-medium-webfont.woff') format('woff'), 
-     url('../fonts/roboto_medium/roboto-medium-webfont.ttf')  format('truetype'), 
-     url('../fonts/roboto_medium/roboto-medium-webfont.svg#svgFontName') format('svg'); 
+	font-family:'robotoMedium';
+	src: url('../fonts/roboto_medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('../fonts/roboto_medium/roboto-medium-webfont.woff') format('woff'), 
+	     url('../fonts/roboto_medium/roboto-medium-webfont.ttf')  format('truetype'), 
+	     url('../fonts/roboto_medium/roboto-medium-webfont.svg#svgFontName') format('svg'); 
 }
 .container{
 	width:940px;
@@ -34,6 +34,9 @@ a{
 }
 .clear{
 	clear:both;
+}
+.clearLeft{
+	/*clear: left;*/
 }
 /* header */
 #header{
@@ -173,17 +176,9 @@ a{
 	padding:0px 0px 37px 0px;
 }
 
-/*.icons div{
-	background-color: #444444;
-	width: 924px;
-	height: 289px;
-}*/
 .icons ul:first-child{
 	background-color: #444444;
-	/*margin: 35px 80px 0px 0px;*/
-	/*width: 924px;
-	height: 289px;*/
-
+	
 }
 .icons ul:first-child li:first-child{
 	display: inline-block;
@@ -207,11 +202,11 @@ a{
 	margin-bottom:10px;
 }
 .icons ul li:first-child{
-	margin: 0px 90px 0px 75px;
+	margin: 0px 110px 0px 75px;
 }
 .icons ul li{
 	display: inline;
-	margin: 0px 75px 0px 0px;
+	margin: 0px 85px 0px 0px;
 }
 #certapay{
 	margin: 0px 103px 0px 0px;
@@ -304,9 +299,12 @@ a{
 	color: #888888;
 	font-family: helvetica;
 }
+.world_map {
+	width: 350px;
+}
 .world_map h2{
-	/*width: 325px;*/
-	/*display: block;*/
+	
+	margin: 0px 0px 0px 7px;
 	text-align: left;
 	font-size: 21px;
 	line-height: 38px;
@@ -318,6 +316,8 @@ a{
 	line-height: 25px;
 	color: #dd4422;
 	font-family: "robotoMedium";
+	text-align: center;
+	margin: 0px 0px 15px 0px;
 }
 .setBackGround{
 	background-color: #f7f7f7;
