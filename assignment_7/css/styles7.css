@@ -9,16 +9,66 @@
 	width: 940px;
 	margin: auto;
 }
-#header div ul{
-	float: right;
+#wrapper{
+	background-color: #ffffff;
+	margin: 0 auto;
 }
+#header{
+	padding: 57px 0px 18px 0px;
+	margin: 0px 0px 12px 0px;
+	border-bottom: 1px solid #dddddd;
+	/*display: block;*/
+	height: 30px;
+	/*margin: 0 auto;*/
+}
+
 #header div h1 {
+	display: inline;
 	float:left;
 	font: 37px "robotoLight";
 	line-height: 37px;
 	color: black;
 }
+#header div ul{
+	display: inline;
+	float: right;
+}
 #header div ul li{
 	display: inline;
 	margin:0px 35px 0px 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+#header div ul li a{
+	font: 15px "robotoLight";
+	line-height: 18px;
+	color: #1a4da2;
+}
+#header div ul li a:hover{
+	color: black;
+}
+#header div ul li input{
+	width: 154px;
+	height: 14px;
+	background: url('../images/search.png') left 7px center no-repeat;
+	padding: 8px;
+	/*margin-left: 22px;*/
+	-webkit-border-radius:3px; 
+	-moz-border-radius: 3px; 
+  	border-radius: 3px;
+  	text-indent: 22px;
+}
+
+@font-face {
+	font-family: 'robotoLight';
+	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot');
+	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+	url('../fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+	url('../fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
