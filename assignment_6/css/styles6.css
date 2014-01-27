@@ -263,8 +263,48 @@ a{
 	line-height: 18px;
 	font-family: helvetica;
 }
+/* map*/
+#map div img{
+	float: left;
+}
+#map div ul{
+	float: left;
+	width: 176px;
+}
+#map div ul li{
+	float: left;
+	width: 176px;
+	/*height: 43px;*/
+	margin: 0px 0px 16px 0px;
+}
+#map div ul li img{
+	float: left;
+	/*display: block;*/
+}
+#map div ul li h4{
+	font-size: 13px;
+	line-height: 18px;
+	color: #222222;
+	font-family: helvetica;
+}
+#map div ul li h5{
+	font-size: 11px;
+	line-height: 18px;
+	color: #888888;
+	font-family: helvetica;
+}
+#MAP div > h2{
+	text-align: left;
+	font-size: 21px;
+	line-height: 38px;
+	color: #444444;
+	font-family: "robotoMedium";
+}
+#MAP div title{
+	font-size: 18px;
+	line-height: 25px;
+	color: #dd4422;
+	font-family: "robotoMedium";
+}
 
-/*.icons ul:last-child li div img{
-	padding-top: 0px;
-	width: 200px;
-}*/
+
