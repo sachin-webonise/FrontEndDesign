@@ -13,25 +13,39 @@
 	background-color: #ffffff;
 	margin: 0 auto;
 }
+
 @font-face {
-	font-family: 'robotoLight';
-	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot');
-	src: url('../fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
-	url('../fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
-	url('../fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'robotolight';
+    src: url('../fonts/roboto_light/roboto-light-webfont.eot');
+    src: url('../fonts/roboto_light/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto_light/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto_light/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto_light/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
-	font-family: 'robotoThin';
-	src: url('../fonts/roboto_thin/Roboto-Thin-webfont.eot');
-	src: url('../fonts/roboto_thin/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/roboto_thin/Roboto-Thin-webfont.woff') format('woff'),
-	url('../fonts/roboto_thin/Roboto-Thin-webfont.ttf') format('truetype'),
-	url('../fonts/roboto_thin/oboto-Thin-webfont.svg#robotothin') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'robotothin';
+    src: url('../fonts/roboto_thin/roboto-thin-webfont.eot');
+    src: url('../fonts/roboto_thin/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto_thin/roboto-thin-webfont.woff') format('woff'),
+         url('../fonts/roboto_thin/roboto-thin-webfont.ttf') format('truetype'),
+         url('../fonts/roboto_thin/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto_medium/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto_medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto_medium/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto_medium/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto_medium/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 #header{
@@ -46,7 +60,7 @@
 #header div h1 {
 	display: inline;
 	float:left;
-	font: 37px "robotoLight";
+	font: 37px "robotolight";
 	line-height: 37px;
 	color: black;
 }
@@ -70,7 +84,7 @@ li{
 	display: inline;
 }
 #header div ul li a{
-	font: 15px "robotoLight";
+	font: 15px "robotolight";
 	line-height: 18px;
 	color: #1a4da2;
 }
@@ -145,7 +159,7 @@ li{
 }
 .topDiv div h2{
 	float: right;
-	font: 36px "robotoThin";
+	font: 36px "robotothin";
 	line-height: 53px;
 	color: #d54405;
 }
@@ -166,7 +180,7 @@ li{
 	margin-right: 0px;
 }
 .destinationMenu li a{
-	font: 15px "robotoLight";
+	font: 15px "robotolight";
 	color: #1a4da2;
 	line-height: 53px;
 }
@@ -175,7 +189,7 @@ li{
 
 }
 .InformationDiv{
-	height: 450px;
+	height: auto;
 	margin-bottom: 42px;
 }
 .InformationDiv ul{
@@ -202,21 +216,21 @@ li{
 }
 
 .InformationDiv ul li a h3{
-	font: 15px "robotoLight";
+	font: 15px "robotolight";
 	line-height:20px;
 	color: #1a4da2;
 	margin: 0px 0px 0px 35px;
 }
 .InformationDiv ul li a h4{
-	font: 12px "robotoLight";
+	font: 12px "robotolight";
 	line-height:20px;
 	color: #878787;
 	margin: 0px 0px 0px 35px;
 }
-.InformationDiv div{
+.mapTitle{
 	float: right;
 	/*width: 35px;*/
-	font: 32px "robotoThin";
+	font: 32px "robotothin";
 	line-height:48px;
 	color: #d54405;
 	margin: 0px 368px 23px 10px;
@@ -240,8 +254,39 @@ li{
 	background: url('../images/travel_checklist.png') left;
 }
 #map{
-	width:688px;
-	height: 393px;
+	width:660px;
+	height: 302px;
 	float: left;
+	/*padding: 13px;
+	margin-bottom: 20px;*/
+	margin: 13px 13px 33px 13px;
 }
+#mapDiv{
+	display: inline-block;
+	margin: 0 auto;
+	width: 690px;
+	height: 393px;
+	border: 1px solid #dddddd;
+}
+#mapDiv div{
+	display: inline;
+	width: 100px;
+	height: 12px;
+	margin: 0px 16px 0px 16px;
+	font: 14px "robotolight";
+	line-height:17px;
+	color: #666666;
+}
+#mapDiv select{
+	width: 160px;
+	height: 30px;
+	border:1px solid #e1e1e1;
 
+	-webkit-border-radius:3px; 
+	-moz-border-radius: 3px; 
+  	border-radius: 3px;
+
+  	font: 14px "robotomedium";
+	line-height:17px;
+	color: #444444;
+}
