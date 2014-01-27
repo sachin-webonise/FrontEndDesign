@@ -302,13 +302,13 @@ li{
 	border-bottom: 1px solid #dddddd;
 	margin-bottom: 18px;
 }
-#travelOptions ul div:first-child{
+.optionTitle{
 	font: 20px "robotolight";
 	line-height:17px;
 	color: #000000;
 	margin: 0px 0px 23px 0px;
 }
-#travelOptions ul div{
+.optionDescription{
 	font: 11px tahoma;
 	line-height:16px;
 	color: #000000;	
@@ -316,8 +316,8 @@ li{
 }
 #travelOptions ul li{
 	display: inline-block;
-	padding:0px 0px 0px 115px;
-	width: 674px;
+	padding:0px 0px 0px 0px;
+	width:auto;
 	height: auto;
 
 	
@@ -325,12 +325,8 @@ li{
 #travelOptions ul li a{
 	margin: 0px 0px 51px 0px;
 }
-.byAirLi{
-	background: url('../images/plane.png') no-repeat left;
-}
-.byTrainLi{
-	background: url('../images/train.png') no-repeat left;
-}
-.byBusLi{
-	background: url('../images/bus.png') no-repeat left;
+#travelOptions ul li img{
+	float: left;
+	margin: 0px 40px 0px 0px;
+	padding-bottom: 30px; 
 }
