@@ -162,6 +162,9 @@ li{
 .destinationMenu li{
 	margin: 0px 35px 0px 0px;
 }
+.destinationMenu li:last-child{
+	margin-right: 0px;
+}
 .destinationMenu li a{
 	font: 15px "robotoLight";
 	color: #1a4da2;
@@ -171,9 +174,17 @@ li{
 	color: black;
 
 }
-.InformationDiv ul li{
+.InformationDiv{
+	height: 450px;
+	margin-bottom: 42px;
+}
+.InformationDiv ul{
 	width: 225px;
-	/*height: 52px;*/
+	float: left;
+	margin: 0px 23px 0px 0px;
+}
+.InformationDiv ul li{
+	width: 211px;
 	display: block;
 	margin:0 auto;
 	padding: 0px 0px 16px 14px;
@@ -189,6 +200,7 @@ li{
 	height: 40px;
 	background-repeat: no-repeat;
 }
+
 .InformationDiv ul li a h3{
 	font: 15px "robotoLight";
 	line-height:20px;
@@ -200,6 +212,14 @@ li{
 	line-height:20px;
 	color: #878787;
 	margin: 0px 0px 0px 35px;
+}
+.InformationDiv div{
+	float: right;
+	/*width: 35px;*/
+	font: 32px "robotoThin";
+	line-height:48px;
+	color: #d54405;
+	margin: 0px 368px 23px 10px;
 }
 .how_to_reach{
 	background: url('../images/how_to_reach.png') left;
@@ -218,5 +238,10 @@ li{
 }
 .travel_checklist{
 	background: url('../images/travel_checklist.png') left;
+}
+#map{
+	width:688px;
+	height: 393px;
+	float: left;
 }
 

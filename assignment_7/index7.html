@@ -3,6 +3,9 @@
 	<head>
 		<title>Destination Guide | Home</title>
 		<link rel="stylesheet" type="text/css" href="css/styles7.css"/>
+		
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	
 	</head>
 	<body>
 		<div id="wrapper">
@@ -14,6 +17,7 @@
 						<li><a href="#">Destinations</a></li>
 						<li><a href="#">Travel Blog</a></li>
 						<li><input type="text" placeholder="Search a Destination"></li>
+						<li class="clear"></li>
 					</ul>
 				</div>
 			</div><!-- end header -->
@@ -39,7 +43,8 @@
 				</div>
 
 				<div class="InformationDiv container">
-					<ul>
+					
+					<ul class="clear">
 						<li>
 							<a class="how_to_reach" href="#">								
 								<h3>How to reach</h3>
@@ -70,20 +75,27 @@
 								<h4>Information required for travel</h4>
 							</a>
 						</li>
-						<li>
+						<li  class="clear">
 							<a class="travel_checklist" href="#">
 								<h3>Travel checklist</h3>
 								<h4>Things to remember when packing up</h4>
 							</a>
-						</li>		
+						</li>
+					
 					</ul>
+					<div>How to reach Bangkok</div>
+					<iframe id="map" src="https://mapsengine.google.com/map/embed?mid=z6zMrxoJYQY8.kd7phnX-YIUw">
+					</iframe>					
+				</div>
+				<div id="travelOptions">
+					<div>Travel Options</div>
+
 
 				</div>
 
 
 
-
-			</div>
+			</div> <!--  end body -->
 
 
 
