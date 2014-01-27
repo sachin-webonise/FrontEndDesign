@@ -32,6 +32,9 @@ li{
 a{
 	text-decoration: none;
 }
+.clear{
+	clear:both;
+}
 /* header */
 #header{
 	background-color: #ffffff;
@@ -164,3 +167,97 @@ a{
 .signup_buttons input:first-child{
 	margin: 0px 18px 0px 0px;
 }
+				/* icons */
+.icons{
+	background-color: #444444;
+}
+
+/*.icons div{
+	background-color: #444444;
+	width: 924px;
+	height: 289px;
+}*/
+.icons ul:first-child{
+	background-color: #444444;
+	/*margin: 35px 80px 0px 0px;*/
+	/*width: 924px;
+	height: 289px;*/
+
+}
+.icons ul:first-child li:first-child{
+	display: inline-block;
+	margin: 35px 80px 27px 35px;
+	width: 150px;
+	/*height: 150px;*/
+}
+.icons ul:first-child li{
+	display: inline-block;
+	margin: 35px 80px 27px 0px;
+	width: 150px;
+	/*height: 150px;*/
+}
+.icons ul:first-child li:last-child{
+	display: inline-block;
+	margin: 35px 35px 27px 0px;
+	width: 150px;
+	/*height: 150px;*/
+}
+.icons ul{
+	margin-bottom:10px;
+}
+.icons ul li:first-child{
+	margin: 0px 90px 0px 75px;
+}
+.icons ul li{
+	display: inline;
+	margin: 0px 75px 0px 0px;
+}
+#certapay{
+	margin: 0px 103px 0px 0px;
+}
+.icons ul li:last-child{
+	margin: 0px 30px 0px 0px;
+}
+
+.icons ul li h3{
+	width: 200px;
+	display: inline;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	font-family: "robotoMedium";
+	
+}
+.description{
+	
+	background-color: #444444;
+}
+.icons ul li h4{
+
+	width: 200px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #bbbbbb;
+	font-family: helvetica;
+	
+}
+
+.icons ul:last-child li{
+	border-top: 1px solid black;
+	padding-top: 15px;
+	margin: 0px 39px 0px 0px;
+	display: inline;
+	float: left;
+}
+.icons ul:last-child li:first-child{
+	margin: 0px 39px 0px 10px;
+}
+.icons ul:last-child li:last-child{
+	margin: 0px 10px 0px 0px;
+}
+
+
+/*.icons ul:last-child li div img{
+	padding-top: 0px;
+	width: 200px;
+}*/
