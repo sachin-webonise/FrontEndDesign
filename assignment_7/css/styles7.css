@@ -1,0 +1,24 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.clear{
+	clear: both;
+}
+.container {
+	width: 940px;
+	margin: auto;
+}
+#header div ul{
+	float: right;
+}
+#header div h1 {
+	float:left;
+	font: 37px "robotoLight";
+	line-height: 37px;
+	color: black;
+}
+#header div ul li{
+	display: inline;
+	margin:0px 35px 0px 0px;
+}
