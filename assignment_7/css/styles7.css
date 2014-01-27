@@ -76,6 +76,7 @@ li{
 }
 #header div ul li a:hover{
 	color: black;
+	
 }
 #header div ul li input{
 	width: 154px;
@@ -92,7 +93,7 @@ li{
 
 
 /*top div*/
-.topDiv ul{
+.topDiv ul:first-child{
 	margin: 0px 0px 50px 0px;
 }
 .topDiv ul:first-child li{
@@ -103,18 +104,43 @@ li{
 .topdiv ul:first-child li a{
  	font-size: 11px;
  	line-height: 17px;
+ 	font-family: tahoma;
  	color: #1a4da2;
 }
 .topdiv ul:first-child li a:hover{
-	color: black;
+	color: #333333;
+	font-weight: bold;
 }
 .topDiv ul:first-child li:last-child{
 	background-image: none;
+}
+
+.topDiv ul:last-child li:last-child{
+	/*width: 32px;
+	height: 70px;*/
+	background-color: #ffffff;
+	-webkit-border-radius:4px; 
+	-moz-border-radius: 4px; 
+  	border-radius: 4px;
+  	border:1px solid #dddddd;
+  	padding: 5px 8px 5px 8px;
+}
+.topDiv ul:last-child li:last-child a{
+	color: #d54405;
+	font: 15px "robotolight";
+	line-height: 17px;
+	text-align: center;
+
+}
+.topDiv{
+	height: 135px;
+	border-bottom: 1px solid #dddddd;
 }
 .topDiv div{
 	float: left;
 	width: 202px;
 	height: 53px;
+
 }
 .topDiv div h2{
 	float: right;
