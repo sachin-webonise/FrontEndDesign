@@ -135,6 +135,7 @@ li{
 .topDiv{
 	height: 135px;
 	border-bottom: 1px solid #dddddd;
+	margin-bottom: 38px;
 }
 .topDiv div{
 	float: left;
@@ -170,3 +171,52 @@ li{
 	color: black;
 
 }
+.InformationDiv ul li{
+	width: 225px;
+	/*height: 52px;*/
+	display: block;
+	margin:0 auto;
+	padding: 0px 0px 16px 14px;
+	margin: 0px 0px 13px 0px;
+	border-bottom: 1px solid #dddddd;
+}
+.InformationDiv ul li:last-child{
+	padding: 0px 0px 30px 14px;
+}
+.InformationDiv ul li a{
+	display: block;
+	width: 200px;
+	height: 40px;
+	background-repeat: no-repeat;
+}
+.InformationDiv ul li a h3{
+	font: 15px "robotoLight";
+	line-height:20px;
+	color: #1a4da2;
+	margin: 0px 0px 0px 35px;
+}
+.InformationDiv ul li a h4{
+	font: 12px "robotoLight";
+	line-height:20px;
+	color: #878787;
+	margin: 0px 0px 0px 35px;
+}
+.how_to_reach{
+	background: url('../images/how_to_reach.png') left;
+}
+.where_to_stay{
+	background: url('../images/where_to_stay.png') left;
+}
+.getting_around{
+	background: url('../images/getting_around.png') left;
+}
+.holiday_packages{
+	background: url('../images/holiday_packages.png') left;
+}
+.imp_info{
+	background: url('../images/imp_info.png') left;
+}
+.travel_checklist{
+	background: url('../images/travel_checklist.png') left;
+}
+
