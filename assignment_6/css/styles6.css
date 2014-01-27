@@ -1,4 +1,4 @@
-*{
+*,h1,h2,h2,h4,h5,h6{
 	margin: 0px;
 	padding: 0px;
 }
@@ -103,20 +103,20 @@ a{
 
 /* end header*/
 /* Body */
-#body div:first-child{
+.bodyFirstDiv{
    background-color: #eeeeee;
    text-align: center;
 }
-#body div:first-child div img{
+.bodyFirstDiv > div >img{
 	margin: 260px 0px 0px 0px;
 }
-#body div:first-child div h2{
+.bodyFirstDiv div h2{
 	font-size: 24px;
 	line-height: 32px;
 	color: #666666;
 	font-family: "robotoMedium";
 }
-#body div:first-child div h1{
+.bodyFirstDiv div h1{
 	font-size: 30px;
 	line-height: 32px;
 	color: #444444;
@@ -264,43 +264,54 @@ a{
 	font-family: helvetica;
 }
 /* map*/
-#map div img{
-	float: left;
+#map{
+	background-color: #ffffff;
 }
-#map div ul{
-	float: left;
-	width: 176px;
+#map div {
+	background-color: #ffffff;
 }
-#map div ul li{
+.world_map img{
 	float: left;
-	width: 176px;
+	margin: 0px 14px 0px 0px;
+}
+.providers ul{
+	margin: 0px 0px 0px 50px;
+	background-color: #ffffff;
+	float: left;
+	width: 196px;
+}
+.providers ul li{
+	float: left;
+	width: 196px;
 	/*height: 43px;*/
 	margin: 0px 0px 16px 0px;
 }
-#map div ul li img{
+.providers ul li img{
 	float: left;
 	/*display: block;*/
 }
-#map div ul li h4{
+.providers ul li h4{
 	font-size: 13px;
 	line-height: 18px;
 	color: #222222;
 	font-family: helvetica;
 }
-#map div ul li h5{
+.providers ul li h5{
 	font-size: 11px;
 	line-height: 18px;
 	color: #888888;
 	font-family: helvetica;
 }
-#MAP div > h2{
+.world_map h2{
+	/*width: 320px;*/
+	display: block;
 	text-align: left;
 	font-size: 21px;
 	line-height: 38px;
 	color: #444444;
 	font-family: "robotoMedium";
 }
-#MAP div title{
+.providers h3{
 	font-size: 18px;
 	line-height: 25px;
 	color: #dd4422;
