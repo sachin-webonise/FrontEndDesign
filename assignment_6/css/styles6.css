@@ -272,7 +272,7 @@ a{
 }
 .world_map img{
 	float: left;
-	margin: 0px 14px 0px 0px;
+	margin: 0px 50px 0px 0px;
 }
 .providers ul{
 	margin: 0px 0px 0px 50px;
@@ -288,6 +288,7 @@ a{
 }
 .providers ul li img{
 	float: left;
+	margin: 0px 14px 0px 0px;
 	/*display: block;*/
 }
 .providers ul li h4{
@@ -303,8 +304,8 @@ a{
 	font-family: helvetica;
 }
 .world_map h2{
-	/*width: 320px;*/
-	display: block;
+	/*width: 325px;*/
+	/*display: block;*/
 	text-align: left;
 	font-size: 21px;
 	line-height: 38px;
@@ -317,5 +318,7 @@ a{
 	color: #dd4422;
 	font-family: "robotoMedium";
 }
-
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
 
