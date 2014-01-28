@@ -438,6 +438,9 @@ h1, h2, h3, h4, h5, h6 {
 	font: 12px "Myriad Pro";
 	line-height: 16px;
 }
+#footer a:hover{
+	color: blue;
+}
 
 #footer ul {
 	display:table; 
