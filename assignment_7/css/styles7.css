@@ -362,9 +362,10 @@ li{
   	border-radius: 3px;
 
   	border: 1px solid #dddddd;
+
 }
 .searchDiv input{
-	width: 173px;
+	width: 182px;
 	height: 30px;
 	-webkit-border-radius:3px; 
 	-moz-border-radius: 3px; 
@@ -375,8 +376,9 @@ li{
 	line-height:18px;
 	color: #1a4da2;
 	border: 1px solid #dddddd;
-	background: url('../images/link_icon.png') no-repeat right;
-	padding-right: 9px;
+	background: url('../images/link_icon.png') no-repeat 160px center;
+	/*padding: 0px 8px 0px 8px;*/
+	/*padding-right: 9px;*/
 }
 #body{
 	width: auto;
