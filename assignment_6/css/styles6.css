@@ -99,9 +99,10 @@ a{
 	line-height: 24px;
 	font-family: "robotobold";
 	box-shadow: 1px 0px 3px;
-	-moz-box-shadow:    inset 2 0 0px #474747;
-   	-webkit-box-shadow: inset 2 0 0px #474747;
-   	box-shadow:         inset 2 0 0px #474747;
+	
+   	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4), inset 0 2px rgba(255,255,255,.4); 
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.4), inset 0 2px rgba(255,255,255,.4); 
+    box-shadow: 0 1px 3px rgba(0,0,0,.4), inset 0 2px rgba(255,255,255,.4); 
 }
 
 /* end header*/
@@ -339,6 +340,20 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 /* testimonials*/
+.testimonials {
+	background-color: #ddd;
+	padding: 43px 0px 37px;
+}
+.testimonials div h2{
+	font: 24px "robotomedium";
+	line-height: 40px;
+	color: #444444;
+	margin-bottom: 19px;
+	text-align: center;
+	margin:0px 0px 32px 0px;
+}
+
+
 .leftDiv {
 	float: left;
 	margin-right: 29px;
@@ -364,6 +379,7 @@ h1, h2, h3, h4, h5, h6 {
 	height: 75px;
 	border: solid 1px #d6d6d6;
 	padding: 18px;
+
 }
 .row > div img {
 	float: left;
@@ -374,18 +390,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #d54102;
 }
 
-.testimonials {
-	background-color: #ddd;
-	padding: 43px 0px 37px;
-}
-.testimonials div h2{
-	font: 24px "robotomedium";
-	line-height: 40px;
-	color: #444444;
-	margin-bottom: 19px;
-	text-align: center;
-	margin:0px 0px 32px 0px;
-}
+
 .row > div > div {
 	float: left;
 	width: 314px;
