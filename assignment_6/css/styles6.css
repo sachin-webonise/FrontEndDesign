@@ -4,14 +4,14 @@
 }
 
 @font-face{
-	font-family:'robotoBold';
+	font-family:'robotobold';
 	src: url('../fonts/roboto_bold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'), 
 	     url('../fonts/roboto_bold/roboto-bold-webfont.woff') format('woff'), 
 	     url('../fonts/roboto_bold/roboto-bold-webfont.ttf')  format('truetype'), 
 	     url('../fonts/roboto_bold/roboto-bold-webfont.svg#svgFontName') format('svg'); 
 }
 @font-face{
-	font-family:'robotoMedium';
+	font-family:'robotomedium';
 	src: url('../fonts/roboto_medium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'), 
 	     url('../fonts/roboto_medium/roboto-medium-webfont.woff') format('woff'), 
 	     url('../fonts/roboto_medium/roboto-medium-webfont.ttf')  format('truetype'), 
@@ -69,7 +69,7 @@ a{
 }
 .nav ul li{
 	margin: 0px 45px 0px 0px;		
-	font-family: "robotoBold";
+	font-family: "robotobold";
 }
 .nav ul li a{
 	background: url("../images/how_it_works.png");
@@ -97,7 +97,7 @@ a{
 	color: #ffffff;	
 	font: 14px;
 	line-height: 24px;
-	font-family: "robotoBold";
+	font-family: "robotobold";
 	box-shadow: 1px 0px 3px;
 	-moz-box-shadow:    inset 2 0 0px #474747;
    	-webkit-box-shadow: inset 2 0 0px #474747;
@@ -117,20 +117,20 @@ a{
 	font-size: 24px;
 	line-height: 32px;
 	color: #666666;
-	font-family: "robotoMedium";
+	font-family: "robotomedium";
 }
 .bodyFirstDiv div h1{
 	font-size: 30px;
 	line-height: 32px;
 	color: #444444;
-	font-family: "robotoMedium";
+	font-family: "robotomedium";
 	margin: 0px 0px 23px 0px;
 }
 .signupAsDiv{
 	font: 14px;
 	line-height: 24px;
 	color: #3f3f3f;
-	font-family: "robotoBold";
+	font-family: "robotobold";
 	line-height: 35px;
 	width: 120px;
 	text-align: center;
@@ -149,7 +149,7 @@ a{
 	color: #666666;	
 	font: 20px;
 	
-	font-family: "robotoBold";
+	font-family: "robotobold";
 	width: 25px;
 	line-height: 50px;
 	margin: 0px 18px 0px 0px;
@@ -162,7 +162,7 @@ a{
 	color: #ffffff;	
 	font: 16px;
 	line-height: 24px;
-	font-family: "robotoBold";
+	font-family: "robotobold";
 	border-radius: 5px;
 	float: left;
 	
@@ -221,7 +221,7 @@ a{
 	font-size: 16px;
 	line-height: 24px;
 	color: #ffffff;
-	font-family: "robotoMedium";
+	font-family: "robotomedium";
 	
 }
 .description{
@@ -313,7 +313,7 @@ a{
 	font-size: 21px;
 	line-height: 38px;
 	color: #444444;
-	font-family: "robotoMedium";
+	font-family: "robotomedium";
 }
 .providers h3{
 	/*width: 190px;*/
@@ -321,7 +321,7 @@ a{
 	font-size: 18px;
 	line-height: 25px;
 	color: #dd4422;
-	font-family: "robotoMedium";
+	font-family: "robotomedium";
 	text-align: center;
 	margin: 47px 117px 15px 0px;
 }
@@ -367,7 +367,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right: 16px;
 }
 .row span {
-	font: 14px "Myriad Pro", "robotoMedium";
+	font: 14px "Myriad Pro", "robotomedium";
 	color: #d54102;
 }
 
@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 43px 0px 37px;
 }
 .testimonials div h2{
-	font: 24px "robotoMedium";
+	font: 24px "robotomedium";
 	line-height: 40px;
 	color: #444444;
 	margin-bottom: 19px;
@@ -389,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row > div > div > div {
-	font: 16px helvetica, "robotoBold";
+	font: 16px helvetica, "robotobold";
 	line-height: 18px;
 	color: #222222;
 	margin-top: 10px;
@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .row p {
 	color: #888888;
-	font: 12px "Myriad Pro", "robotoMedium";
+	font: 12px "Myriad Pro", "robotomedium";
 	line-height: 18px;
 }
 /*      footer 		*/
