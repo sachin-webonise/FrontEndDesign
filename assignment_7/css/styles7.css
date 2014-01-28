@@ -353,9 +353,30 @@ li{
 .searchDiv select{
 	width: 160px;
 	height: 30px;
-
+	margin: 0px 10px 0px 0px;
 	-webkit-border-radius:3px; 
 	-moz-border-radius: 3px; 
   	border-radius: 3px;
 
+  	border: 1px solid #dddddd;
+}
+.searchDiv input{
+	width: 173px;
+	height: 30px;
+	-webkit-border-radius:3px; 
+	-moz-border-radius: 3px; 
+  	border-radius: 3px;
+  	background-color: #f4f4f4;
+
+  	font: 12px tahoma;
+	line-height:18px;
+	color: #1a4da2;
+	border: 1px solid #dddddd;
+	background: url('../images/link_icon.png') no-repeat right;
+	padding-right: 9px;
+}
+#body{
+	width: auto;
+	height: 1357px;
+	margin-bottom: 55px;
 }
