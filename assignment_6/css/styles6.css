@@ -93,7 +93,7 @@ a{
 	width:80px;
 	border: 1px black solid;
 	border-radius: 3px;
-	background-color: #474747;
+	background-color: #222222;
 	color: #ffffff;	
 	font: 14px;
 	line-height: 24px;
@@ -103,6 +103,7 @@ a{
    	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4), inset 0 2px rgba(255,255,255,.4); 
     -moz-box-shadow: 0 1px 3px rgba(0,0,0,.4), inset 0 2px rgba(255,255,255,.4); 
     box-shadow: 0 1px 3px rgba(0,0,0,.4), inset 0 2px rgba(255,255,255,.4); 
+
 }
 
 /* end header*/
@@ -110,8 +111,9 @@ a{
 .bodyFirstDiv{
    background-color: #eeeeee;
    text-align: center;
+   margin: 0px;
 }
-.bodyFirstDiv > div >img{
+.slider{
 	margin: 260px 0px 0px 0px;
 }
 .bodyFirstDiv div h2{
@@ -128,6 +130,7 @@ a{
 	margin: 0px 0px 23px 0px;
 }
 .signupAsDiv{
+	float: left;
 	font: 14px;
 	line-height: 24px;
 	color: #3f3f3f;
@@ -138,13 +141,27 @@ a{
 	/*margin: auto;*/
 	background-color: #f7f7f7;
 	border-radius: 15px;
-	margin: 0px 0px 30px 410px;
+	/*margin: 0px 0px 30px 410px;*/
+}
+.signUpWrapper{
+	float: right;
+	margin: 0px 140px 30px 0px;	
+}
+.signup_left{
+	float: left;
+	margin-top: 15px;
+}
+.signup_right{
+	float: left;
+	margin-top: 15px;
 }
 .signup_buttons{
+	float: right;
+	display: inline-block;
 	width: 561px;
 	height: 50px;
 	/*margin: auto;*/
-	margin: 0px 0px 35px 190px;
+	margin: 0px 195px 35px 0px;
 }
 .signup_buttons div{
 	color: #666666;	
@@ -436,9 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 8px;
 }
 
-
-#copyright {
-	
+#copyright {	
 	font: 12px "Myriad Pro";
 	line-height: 16px;
 	color: #888888;
